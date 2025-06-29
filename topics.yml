@@ -1,0 +1,22 @@
+# topics covered
+
+repository:
+  name: networking-projects-portfolio
+  topics:
+    - networking
+    - socket-programming
+    - tcp-ip
+    - osi-model
+    - packet-sniffing
+    - arp-spoofing
+    - dns-spoofing
+    - port-scanner
+    - vpn
+    - proxy
+    - firewall
+    - network-monitoring
+    - encryption
+    - python-tools
+    - cybersecurity
+    - ethical-hacking
+    - penetration-testing
