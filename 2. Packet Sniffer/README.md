@@ -48,7 +48,7 @@ It displays Ethernet, IP, TCP, and UDP details in a scrollable window.
 ## ▶️ How to Run the Sniffer
 
 ```
-**Find your network interface**
+Find your network interface
 Run:
     ip a
 ```
@@ -59,13 +59,12 @@ Look for your WiFi/Ethernet name:
 - wlp2s0  
 - eth0  
 
-**Update the interface in the code (if needed)**
+Update the interface in the code (if needed)
 INTERFACE = "wlan0"
 
 ```
-### Run the code 
-
+```
+sudo python3 sniffer_gui.py
 ```
 
-```
-
+---
