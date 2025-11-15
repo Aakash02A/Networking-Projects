@@ -114,9 +114,9 @@ The simulator below demonstrates **all cache-related behaviors** without doing a
 
 ---
 
-# Steps to run code 
+# ▶️ Steps to run code 
 ```
-python dns_spoof_simulator.py
+python dns_spoof.py
 
 ```
 
