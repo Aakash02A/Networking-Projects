@@ -49,7 +49,7 @@ Multiple private hosts can share the same public IP by assigning **unique source
 ---
 
 # 🏗️ Architecture
-
+```
 +-------------------+
 | User Input Pane   |
 +-------------------+
@@ -68,12 +68,12 @@ Multiple private hosts can share the same public IP by assigning **unique source
 +-------------------+
 | Packet Flow Panel |
 +-------------------+
-
+```
 
 ---
 
 # ▶️ Running the Simulator
-``
+```
 python nat_simulator.py
 ```
 
@@ -95,5 +95,13 @@ This project:
 |------|-------------|
 | `nat_simulator.py` | Main Tkinter application |
 | `README.md` | Documentation |
+
+---
+
+# 🚀 Future Enhancements
+- Add support for **dynamic NAT pools**  
+- Visualize **ICMP/UDP/TCP packet translation**  
+- Animated packet flow with connection state  
+- Include **NAT traversal concepts** (UPnP/STUN)  
 
 ---
