@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  networking-desktop:
+    build: .
+    image: networking-projects-desktop
+    container_name: networking-desktop
+    ports:
+      - "6080:80"
+    # Privileged is required for some low-level packet manipulation (like sniffing and ARP spoofing)
+    privileged: true
+    environment:
+      - RESOLUTION=1280x720
+    volumes:
+      # Mount the current directory so edits on the host reflect in the container
+      - .:/root/Networking-Projects
