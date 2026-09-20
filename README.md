@@ -98,4 +98,4 @@ All tools, techniques, and code presented in this repository are intended strict
 
 ---
 
-## Build by AAKASH
+## Built by AAKASH
